@@ -1,0 +1,290 @@
+p{
+	color:red;
+ b 
+h1{
+	color:green;
+}
+.jak{
+color:blue;
+}
+.ma{
+	color: #00a88a;
+	font-weight:bold;
+}
+p1{font-weight:bold;color:#fb0ad7;}
+	s{color:green;}
+
+p5{
+	text-decoration:overline;
+}
+p4{
+	text-decoration:line-through;
+}
+p2{
+	font-family:Arial;
+	font-size:25px;
+	font-weight: bold
+}
+.pagol{
+font: small-caps bold 20px/2em Arial;
+	
+}
+}
+
+.ami{
+	color:blue;
+}
+.citycell{
+	background-image:url("Image/Ami.jpg");
+	background-repeat:no-repeat;
+		background-color:Magenta;
+		background-size:100px;
+		
+}/*this is background css
+background-image:url("...");
+background-repeat:no-repeat;
+background-repeat:repeat-x;
+background-repeat:repeat-y;
+background-size:width px height px;
+background-size:cover;
+*/
+table{
+	
+	width:500px;/*table tag a width/height css kora valo*/
+	text-align: center;/*table er bhitorer lekha guloke majhkhane niye aste hole likhte hobe eti*/
+	margin:50px auto;
+	background-color: #ddd;
+	color:red;
+	
+}
+table,th,td{
+	border-collapse:collapse;
+	border:2px solid red;
+}
+.bamejabe{text-align:left;}
+
+table caption{ 
+	background-color:#ddd;
+	font-weight:bold;color:Magenta;font-size:25px;
+}/*টেবিলের আন্ডারের ক্যাপশন  সাজাতে হলে   এই ভাবে table caption{.....}  করতে হয় ..*/
+.iu{
+	background-color:yellow;
+	color:green;
+}
+.label{
+	background-color:blue;
+	color:white;
+}
+.shuvro_chad{
+	width:100px;
+	height:200px;
+	background-color:Magenta;
+	margin-bottom:50px;
+}
+.Kobitay_bolechile{
+	width:100px;
+	height:200px;
+	background-color:yellow;
+	margin-top:50px;
+	padding:60px;
+}
+
+.hridoyerkotha{
+	width:500px;
+	height:10px;
+	
+}
+.div1{
+	width:500px;
+	height:50px;
+	background-color:blue;
+	margin-top:20px;
+	margin-bottom:10px;
+	padding:20px 20px 50px 40px;
+}
+.div2{
+	width:500px;
+	height:50px;
+	background-color:yellow;
+	padding:20px;
+	margin:50px;
+	
+	
+}
+#wrapper >p{
+	color:blue;
+}
+#proverty{
+	border:1px solid red;
+	width:1000px;
+	height:150px;
+	overflow:Scroll;
+
+	
+}
+#prova{
+	margin-top:50px;
+	padding:20px;
+	
+}
+#Oyshi span{
+margin-top:50px;margin-left:40px;
+   display:block;
+background-color:red;
+color:white;
+margin-bottom:50px;
+}
+.block1{
+	width:200px;
+	height:200px;
+	background-color:red;
+float:left;
+}
+.block1:hover{
+background-color:green;}
+.block2{
+	width:200px;
+	height:200px;
+	background-color:magenta;
+float:left;
+margin-bottom:20px;
+display:block;
+
+}
+.block2:hover{
+background-color:yellow;
+}
+
+.Upoma{
+	width:200px;
+	height:200px;
+background-color:blue;
+display:block;
+	float:left;
+	margin-top:50px;
+}
+.Upoma:hover{
+background-color:black;}
+.Viqi{
+	width:200px;
+	height:200px;
+	background-color:green;
+float:left;
+transition:background-color 8s,width 5s ease-out,height 4s;
+}
+.Viqi:hover{
+	background-color:magenta;
+	height:400px;
+	
+}
+#Sabila{
+	width:200px;
+	height:200px;
+	background-color:yellow;
+	transition:all 10s;
+	margin-top:200px;
+}
+#Sabila:hover{
+	background-color:Magenta;
+	transform:rotate(360deg)
+}
+#Nabila{
+	width:200px;
+	height:200px;
+	background-color:red;
+transition:all 5s
+ 
+   
+	/* multibrowser support er jonyo nimnokto property gulo proyojon...
+	-webkit-transition: all 5s ease-out;
+	margin:100px;
+	-moz-transition: all 5s ease-out;
+	margin:100px;
+	-ms-transition: all 5s ease-out;
+	margin:100px;
+	-o-transition: all 5s ease-out;
+	margin:100px;
+	*/
+}/*transform:skewX(10deg)*/
+/*transform:skewY(360deg)*/
+
+#Nabila:hover{
+	transform:scale(4.5,1.5)
+	/*transform:rotate(90deg);*/
+	/*multibrowser support er jonyo nimnokto property gulo proyojon...
+	-webkit-transform:scale(4.5,1.5)
+	-moz-transform:rotate(90deg);
+	-ms-transform:scale(4.5,1.5)
+	-o-transform:rotate(90deg);*/
+	
+}
+.sunerah{
+	
+background:url("image/lakshmipur polytechnic.jpg") no-repeat;/*image in background*/
+background-size:80em 60em;
+background-attachment:fixed;/*fixed or scroll*/
+}
+ul{
+	list-style-type:square;
+}
+.Samira{
+	list-style-type:circle;
+}
+input[type=text]{
+			width:200px;
+			height:100px;
+			color:red;
+			border:1px solid red;
+			border-radius: 5px;
+			font-weight:bold;
+			
+}
+textarea{
+	color:blue;
+}
+
+input[type=submit]{
+	width:80px;
+	height:35px ;
+	padding:10px;
+	color:magenta;
+	cursor:pointer;
+	cursor:pointer;
+}
+label{
+	width:bold;
+	color:magenta;
+}
+.mybtn{
+	
+	width:150px;
+	height:45px;
+	font-size:20px;
+	border-radius:15px 20px 30px 40px;
+	padding: 5px;
+	color:green;
+	background-color:black;
+	transition: all 1s ease;
+}
+.mybtn:hover{
+	color:black;
+	background-color:white;
+	cursor:pointer;
+}
+
+.pic{
+	
+	float:left;/*float=left/right;*/
+	
+	
+}
+
+.nonc{
+	
+	border:1px solid red;
+}
+.clear{
+	
+	border: 1px solid red;
+	clear:both;/* clear=left/right/both*/
+}
