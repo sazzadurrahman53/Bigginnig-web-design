@@ -5,16 +5,16 @@
     padding:0;
 }
 
-
 .container{
    color:white;
-    display:flex;
+     display:flex;
     justify-content:center; 
-    margin-top:200px;
+    margin-top:170px;
 }
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-color: thistle;
+    background-color: thistle;  
+    
 }
 .sedans{
     background-color:#db8523;

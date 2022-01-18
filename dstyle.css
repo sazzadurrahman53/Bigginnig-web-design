@@ -1,5 +1,25 @@
-.wrapper{
-	background: url('image/lakshmipur\ polytechnic.jpg') no-repeat ;
+.mybtn{
+    border-radius: 4px;
+}
+.mybtn:hover{
+width: 20px;
+height: 15px;
+ cursor:pointer; 
+    background-color:yellow;
+}
+.mydiv{
 
-	background-attachment: fixed ;
+    width:150px;
+    height: 80px;
+    background-color:yellow;
+   
+    animation-name: anim;
+    animation-duration:2s ;
+    animation-iteration-count:3;
+}
+@keyframes anim{
+
+        from{background-color: crimson;}
+    to{background-color: green; border-radius:50%}
+    
 }
